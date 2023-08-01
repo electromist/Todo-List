@@ -189,3 +189,28 @@ body{
 .task-menu li i{
     padding-right: 8px;
 }
+
+/* For smartphones and smaller devices, added media queries */
+@media (max-width: 767px) {
+    .wrapper {
+        max-width: 90vw;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .task-input input {
+        font-size: 16px;
+    }
+
+    .task-box .task {
+        font-size: 15px;
+    }
+
+    .controls .clear-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
