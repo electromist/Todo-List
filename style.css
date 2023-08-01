@@ -193,7 +193,7 @@ body{
 /* For smartphones and smaller devices, added media queries */
 @media (max-width: 767px) {
     .wrapper {
-        max-width: 90%; /* Adjust this value as needed */
+        max-width: 90%;
     }
 
     .controls {
@@ -202,8 +202,8 @@ body{
 
     .filters span {
         display: inline-block;
-        margin: 0 5px; /* Adjust the margin as needed */
-        font-size: 14px; /* Decrease the font size slightly */
+        margin: 0 5px;
+        font-size: 14px;
     }
 
     .controls .clear-btn {
@@ -211,5 +211,3 @@ body{
         padding: 5px 10px;
     }
 }
-
-
