@@ -193,19 +193,17 @@ body{
 /* For smartphones and smaller devices, added media queries */
 @media (max-width: 767px) {
     .wrapper {
-        max-width: 90vw;
+        max-width: 90%; /* Adjust this value as needed */
     }
 
-    .header h1 {
-        font-size: 24px;
+    .controls {
+        flex-wrap: wrap;
     }
 
-    .task-input input {
-        font-size: 16px;
-    }
-
-    .task-box .task {
-        font-size: 15px;
+    .filters span {
+        display: inline-block;
+        margin: 0 5px; /* Adjust the margin as needed */
+        font-size: 14px; /* Decrease the font size slightly */
     }
 
     .controls .clear-btn {
@@ -213,4 +211,5 @@ body{
         padding: 5px 10px;
     }
 }
+
 
