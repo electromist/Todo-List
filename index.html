@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo-List | ELECTROMIST</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Iconscout Link for Icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+<header class="header">
+    <h1>Todo List</h1>
+    <p>Welcome to your todo list! Keep track of your tasks here.</p>
+</header>
+
+<div class="wrapper">
+    <div class="todo-input-text">
+        <p>Enter your task below:</p>
+    </div>
+    <div class="task-input">
+        <img src="align-left.png" alt="icon">
+        <input type="text" placeholder="Add New Task">
+    </div>
+    <div class="controls">
+        <div class="filters">
+            <span id="all" class="active">All</span>
+            <span id="pending">Pending</span>
+            <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+</div>
+</body>
+<script src="script.js" defer></script>
+</html>
